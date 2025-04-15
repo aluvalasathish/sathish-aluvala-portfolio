@@ -1,54 +1,87 @@
-# React + TypeScript + Vite
+# Sathish Aluvala - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This modern, responsive portfolio is built with React, TypeScript, and Vite, showcasing my projects and professional experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Modern and responsive design
+- Built with React 19 and TypeScript
+- Smooth animations using Framer Motion
+- Styled with Tailwind CSS
+- Fast development and build times with Vite
+- Clean and maintainable code structure
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Router DOM
+- React Icons
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/sathish-aluvala-portfolio.git
+cd sathish-aluvala-portfolio
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+2. Install dependencies:
+```bash
+npm install
 ```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+The site will be available at `http://localhost:5173`
+
+## 🔧 Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build the project for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check code quality
+
+## 🏗️ Project Structure
+
+```
+sathish-aluvala-portfolio/
+├── src/               # Source files
+├── public/            # Static assets
+├── index.html         # Entry HTML file
+├── package.json       # Project dependencies and scripts
+├── tsconfig.json     # TypeScript configuration
+├── vite.config.ts    # Vite configuration
+└── tailwind.config.js # Tailwind CSS configuration
+```
+
+## 🚀 Deployment
+
+To deploy the portfolio:
+
+1. Build the project:
+```bash
+npm run build
+```
+
+2. The built files will be in the `dist` directory, ready to be deployed to your hosting platform of choice.
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 📫 Contact
+
+- Website: [your-website.com](https://your-website.com)
+- GitHub: [@your-username](https://github.com/your-username)
+- LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
+
+---
+
+Made with ❤️ by Sathish Aluvala
