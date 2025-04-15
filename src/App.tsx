@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -7,6 +6,7 @@ import Projects from './components/Projects';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { useEffect, useState } from 'react';
 
 // Disable console logs in production
 if (import.meta.env.MODE !== 'development') {
