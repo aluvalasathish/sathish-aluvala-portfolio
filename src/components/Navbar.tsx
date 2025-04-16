@@ -1,6 +1,6 @@
 import React, { useState, useEffect, Component, ErrorInfo } from 'react';
 import { motion, AnimatePresence, LazyMotion, domAnimation } from 'framer-motion';
-import { FaGithub, FaLinkedinIn, FaTwitter,FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { navLinks } from '../constants';
 
 // Error boundary to suppress errors that might generate logs
