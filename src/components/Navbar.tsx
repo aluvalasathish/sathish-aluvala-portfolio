@@ -145,7 +145,7 @@ const Navbar = () => {
 
               <div className="flex items-center gap-4 ml-6">
                 <motion.a 
-                  href="https://github.com/sathish-aluvala" 
+                  href="https://github.com/aluvalasathish" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-champagne hover:text-gold transition-colors duration-300"
@@ -155,7 +155,7 @@ const Navbar = () => {
                   <FaGithub size={20} />
                 </motion.a>
                 <motion.a 
-                  href="https://linkedin.com/in/sathish-aluvala" 
+                  href="https://linkedin.com/in/aluvalasathish" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-champagne hover:text-gold transition-colors duration-300"
@@ -165,7 +165,7 @@ const Navbar = () => {
                   <FaLinkedinIn size={20} />
                 </motion.a>
                 <motion.a 
-                  href="https://twitter.com/sathish_aluvala" 
+                  href="https://twitter.com/aluvalasathish" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-champagne hover:text-gold transition-colors duration-300"
@@ -174,16 +174,7 @@ const Navbar = () => {
                 >
                   <FaTwitter size={20} />
                 </motion.a>
-                <motion.a 
-                  href="https://codepen.io/sathish-aluvala" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-champagne hover:text-gold transition-colors duration-300"
-                  aria-label="CodePen"
-                  variants={itemVariants}
-                >
-                  <FaCodepen size={20} />
-                </motion.a>
+                
               </div>
             </motion.nav>
 
@@ -260,14 +251,6 @@ const Navbar = () => {
                       className="text-champagne hover:text-gold text-2xl transition-colors duration-300"
                     >
                       <FaTwitter />
-                    </a>
-                    <a 
-                      href="https://codepen.io/sathish-aluvala" 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      className="text-champagne hover:text-gold text-2xl transition-colors duration-300"
-                    >
-                      <FaCodepen />
                     </a>
                   </div>
                 </div>
