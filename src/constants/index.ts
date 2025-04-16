@@ -1,4 +1,5 @@
 import { FaCode, FaDesktop, FaMobileAlt, FaServer } from 'react-icons/fa';
+import React from 'react';
 
 interface NavLink {
   id: string;
@@ -7,7 +8,7 @@ interface NavLink {
 
 interface Service {
   title: string;
-  icon: JSX.Element;
+  icon: React.ReactElement;
   description: string;
 }
 
@@ -54,22 +55,22 @@ export const navLinks: NavLink[] = [
 export const services: Service[] = [
   {
     title: "Web Developer",
-    icon: <FaCode />,
+    icon: React.createElement(FaCode),
     description: "Creating responsive, performant, and beautiful websites using the latest technologies and best practices.",
   },
   {
     title: "UI/UX Designer",
-    icon: <FaDesktop />,
+    icon: React.createElement(FaDesktop),
     description: "Designing intuitive and engaging user interfaces that provide exceptional user experiences across all platforms.",
   },
   {
     title: "Mobile App Developer",
-    icon: <FaMobileAlt />,
+    icon: React.createElement(FaMobileAlt),
     description: "Building cross-platform mobile applications that work seamlessly on iOS and Android devices.",
   },
   {
     title: "Backend Developer",
-    icon: <FaServer />,
+    icon: React.createElement(FaServer),
     description: "Creating robust, scalable, and secure backend systems to power web and mobile applications.",
   },
 ];

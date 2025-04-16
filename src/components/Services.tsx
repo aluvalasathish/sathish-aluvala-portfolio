@@ -5,7 +5,7 @@ import { services } from '../constants';
 interface ServiceCardProps {
   index: number;
   title: string;
-  icon: JSX.Element;
+  icon: React.ReactElement;
   description: string;
 }
 
