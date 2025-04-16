@@ -143,7 +143,7 @@ const Navbar = () => {
                 ))}
               </ul>
 
-              <div className="flex items-center gap-4 ml-6">
+              {/* <div className="flex items-center gap-4 ml-6">
                 <motion.a 
                   href="https://github.com/aluvalasathish" 
                   target="_blank" 
@@ -175,7 +175,7 @@ const Navbar = () => {
                   <FaTwitter size={20} />
                 </motion.a>
                 
-              </div>
+              </div> */}
             </motion.nav>
 
             {/* Mobile Menu Button */}
@@ -216,9 +216,7 @@ const Navbar = () => {
                           className={`block py-2 text-lg font-medium border-b border-champagne/10 ${
                             active === link.title ? 'text-gold' : 'text-champagne'
                           }`}
-                          onClick={() => {
-                            handleNavClick(link.title, link.id);
-                          }}
+                          
                         >
                           {link.title}
                         </a>
@@ -226,9 +224,9 @@ const Navbar = () => {
                     ))}
                   </ul>
 
-                  <div className="flex justify-center gap-8 mb-8">
+                  {/* <div className="flex justify-center gap-8 mb-8">
                     <a 
-                      href="https://github.com/sathish-aluvala" 
+                      href="https://github.com/aluvalasathish" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="text-champagne hover:text-gold text-2xl transition-colors duration-300"
@@ -236,7 +234,7 @@ const Navbar = () => {
                       <FaGithub />
                     </a>
                     <a 
-                      href="https://linkedin.com/in/sathish-aluvala" 
+                      href="https://linkedin.com/in/aluvalasathish" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="text-champagne hover:text-gold text-2xl transition-colors duration-300"
@@ -244,14 +242,14 @@ const Navbar = () => {
                       <FaLinkedinIn />
                     </a>
                     <a 
-                      href="https://twitter.com/sathish_aluvala" 
+                      href="https://twitter.com/aluvalasathish" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="text-champagne hover:text-gold text-2xl transition-colors duration-300"
                     >
                       <FaTwitter />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </motion.div>
             )}
