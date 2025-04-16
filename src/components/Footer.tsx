@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedinIn, FaTwitter, FaCodepen, FaArrowUp } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaTwitter,FaArrowUp } from 'react-icons/fa';
 
 const Footer = () => {
   const scrollToTop = () => {
