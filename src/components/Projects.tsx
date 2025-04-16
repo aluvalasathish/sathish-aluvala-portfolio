@@ -15,15 +15,15 @@ const Projects: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState<string>('All');
   
   const projects: Project[] = [
-    {
-      id: 1,
-      title: "Personal Portfolio Website",
-      description: "My portfolio website built with React, TypeScript, and Tailwind CSS. Features smooth animations and responsive design.",
-      image: "https://i.pinimg.com/736x/c7/19/f7/c719f7ec2b84b55028c04188af8dc150.jpg",
-      tags: ["React", "TypeScript", "Tailwind CSS"],
-      github: "https://github.com/aluvalasathish/Portfolio",
-      demo: "https://aluvalasathish.github.io/Portfolio/",
-    },
+    // {
+    //   id: 1,
+    //   title: "Personal Portfolio Website",
+    //   description: "My portfolio website built with React, TypeScript, and Tailwind CSS. Features smooth animations and responsive design.",
+    //   image: "/assets/images/portfolio.png",
+    //   tags: ["React", "TypeScript", "Tailwind CSS"],
+    //   github: "https://github.com/aluvalasathish/Portfolio",
+    //   demo: "https://aluvalasathish.github.io/Portfolio/",
+    // },
     {
       id: 2,
       title: "Hargharwala Dashboard",
@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
       title: "Enterprises Kart",
       description: "A platform for selling business and buying business. It is a full stack application built with React, Node.js, and MongoDB.",
       image: "/assets/images/image.png",
-      tags: ["React", "Node.js", "MongoDB","API Integration"],
+      tags: ["React", "Node.js", "MongoDB","Payment Gateway Integration"],
       github: "https://github.com",
     },
     {
@@ -60,7 +60,7 @@ const Projects: React.FC = () => {
     
   ];
 
-  const filters = ["All", "React", "JavaScript", "HTML", "CSS", "API Integration"];
+  const filters = ["All", "React", "JavaScript", "HTML", "CSS", "Flutter"];
 
   const filteredProjects = activeFilter === 'All' 
     ? projects 

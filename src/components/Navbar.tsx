@@ -23,7 +23,7 @@ class ErrorBoundary extends Component<{ children: React.ReactNode }> {
             <a href="/" className="flex items-center justify-center">
               <div className="relative w-10 h-10 rounded-full overflow-hidden flex items-center justify-center">
                 <div className="absolute inset-0 bg-gradient-to-br from-gold to-purple-600 opacity-80"></div>
-                <span className="relative z-10 text-2xl font-bold text-deep-navy">A</span>
+                <span className="relative z-10 text-2xl font-bold text-deep-navy">AS</span>
               </div>
             </a>
           </div>
@@ -91,7 +91,7 @@ const Navbar = () => {
         <header 
           className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
             scrolled 
-              ? 'bg-deep-navy/90 backdrop-blur-md py-3 shadow-lg' 
+              ? 'bg-deep-navy/85 backdrop-blur-md py-3 shadow-lg shadow-black/10 border-b border-white/5' 
               : 'bg-transparent py-5'
           }`}
         >
@@ -216,8 +216,7 @@ const Navbar = () => {
                           className={`block py-2 text-lg font-medium border-b border-champagne/10 ${
                             active === link.title ? 'text-gold' : 'text-champagne'
                           }`}
-                          onClick={(e) => {
-                            e.preventDefault();
+                          onClick={() => {
                             handleNavClick(link.title, link.id);
                           }}
                         >

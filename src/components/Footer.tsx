@@ -72,7 +72,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/sathish-aluvala" 
+                href="https://github.com/aluvalasathish" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-champagne hover:text-gold transition-colors duration-300"
@@ -80,7 +80,7 @@ const Footer = () => {
                 <FaGithub size={20} />
               </a>
               <a 
-                href="https://linkedin.com/in/sathish-aluvala" 
+                href="https://linkedin.com/in/aluvalasathish" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-champagne hover:text-gold transition-colors duration-300"
@@ -88,21 +88,14 @@ const Footer = () => {
                 <FaLinkedinIn size={20} />
               </a>
               <a 
-                href="https://twitter.com/sathish_aluvala" 
+                href="https://twitter.com/aluvalasathish" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-champagne hover:text-gold transition-colors duration-300"
               >
                 <FaTwitter size={20} />
               </a>
-              <a 
-                href="https://codepen.io/sathish-aluvala" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-champagne hover:text-gold transition-colors duration-300"
-              >
-                <FaCodepen size={20} />
-              </a>
+              
             </div>
           </motion.div>
         </div>
